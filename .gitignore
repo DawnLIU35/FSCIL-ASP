@@ -1,0 +1,10 @@
+data/
+saved_model/
+.idea/
+__pycache__/
+*.py[cod]
+*.ipynb
+*.pdf
+.vscode/
+outputs/
+logs/

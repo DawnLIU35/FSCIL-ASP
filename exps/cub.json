@@ -1,0 +1,39 @@
+{
+    "model_name": "asp",
+    "backbone_type": "pretrained_vit_b16_224_vpt",
+    "device": ["0"],
+    "seed": [2024],
+    "dataset": "cub",
+    "init_cls": 100,
+    "increment": 10,
+    "kshot": 5,
+
+    "vpt_type":"Deep",
+    "prompt_token_num":6,
+    "avg_alpha": 0.8,
+    "perturb_var": 1,
+    "EMA_beta": 0.99,
+    "anchor_lambda": 0.1,
+    "kl_weight": 0.001,
+    "TIP_init": "zero",
+    
+    "tuned_epoch":20,
+    "fs_epoch": 0,
+    "init_lr":0.01,
+    "fs_lr":0.001,
+    "batch_size":24,
+    "fs_batch_size": 16,
+    "weight_decay":0.005,
+    "min_lr":0,
+    "optimizer":"sgd",
+    
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": false,
+    "top_k": 5,
+    "base_model_path": "asp",
+    "prefix": "asp",
+    "model_prefix": "asp"
+}
+
