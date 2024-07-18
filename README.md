@@ -33,3 +33,13 @@ Experiment on ImageNet-R dataset:
 python main.py --config=./exps/inr.json
 ```
 
+## Citation
+```
+@article{liu2024few,
+  title={Few-Shot Class Incremental Learning with Attention-Aware Self-Adaptive Prompt},
+  author={Liu, Chenxi and Wang, Zhenyi and Xiong, Tianyi and Chen, Ruibo and Wu, Yihan and Guo, Junfeng and Huang, Heng},
+  journal={arXiv preprint arXiv:2403.09857},
+  year={2024}
+}
+```
+
