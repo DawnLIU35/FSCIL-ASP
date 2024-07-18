@@ -11,6 +11,16 @@ ASP is a novel few-shot class incremental learning (FSCIL) algorithm which utili
 ### Dataset preparation
 
 ### Run experiment
+Experiment on CIFAR100 dataset:
 ```
 python main.py --config=./exps/cifar.json
 ```
+Experiment on CUB200 dataset:
+```
+python main.py --config=./exps/cub.json
+```
+Experiment on ImageNet-R dataset:
+```
+python main.py --config=./exps/inr.json
+```
+
