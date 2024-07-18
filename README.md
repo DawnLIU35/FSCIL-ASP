@@ -12,6 +12,7 @@ ASP consistently outperforms traditional FSCIL works using ResNet, multi-modal F
 ## Instructions on running ASP
 
 ### Environment setup
+Clone this GitHub repository and run:
 ```
 pip install -r requirements.txt
 ```
