@@ -7,6 +7,9 @@ ASP is a novel few-shot class incremental learning (FSCIL) algorithm which utili
 ## Instructions on running ASP
 
 ### Environment setup
+```
+pip install requirement.txt
+```
 
 ### Dataset preparation
 
