@@ -20,8 +20,8 @@ pip install -r requirements.txt
 ### Dataset preparation
 Download the dataset and put them in folder `./data`
 * **CIFAR100**: will be automatically downloaded by the code.
-* **CUB200**: Google Drive: [link]()
-* **ImageNet-R**: Google Drive: [link]()
+* **CUB200**: Google Drive: [link](https://drive.google.com/file/d/1jx0ICqvgaXyfWUVLTv6St0_b6p7D0Hpm/view?usp=sharing)
+* **ImageNet-R**: Google Drive: [link](https://drive.google.com/file/d/1R4bRjYXnbRWje6hw_YPdsKr1HuojXzqO/view?usp=sharing)
 
 ### Run experiment
 Experiment on CIFAR100 dataset:
