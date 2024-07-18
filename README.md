@@ -4,8 +4,7 @@ This codebase contains the official Python implementation of [Few-shot Class Inc
 ## Introduction
 ASP is a novel few-shot class incremental learning (FSCIL) algorithm which utilizes prompt tuning with a Vision Transformer backbone. ASP consistently outperforms traditional FSCIL works using ResNet, multi-modal FSCIL works using CLIP, and prompt-based CIL works using ViT.
 
-xfun::embed_file("fig/main_result.pdf")
-![](https://github.com/DawnLIU35/FSCIL-ASP/blob/main/fig/main_result.pdf)
+![](https://github.com/DawnLIU35/FSCIL-ASP/blob/main/fig/main_result.png)
 
 ## Instructions on running ASP
 
